@@ -73,7 +73,7 @@ const EmployeeTable = () => {
 
      
       <div style={{ marginTop: "10px" }}>
-        <button onClick={handlePrev} disabled={currentPage === 1}>
+        <button onClick={handlePrev} >
           Previous
         </button>
 
